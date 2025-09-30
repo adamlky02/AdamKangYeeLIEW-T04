@@ -17,15 +17,26 @@
             <li><a href="about.html">About Us</a></li>
         </ul>
     </nav>
-
-
 <main>
-    <section class="banner">
-        <h1>Appliance Energy Consumption Website </h1>
-        <p>Explore energy consumption trends for appliances in the Australian market.</p>
-    </section>
-</main>
+<section class="banner">
+    <h1>Appliance Energy Consumption Website </h1>
+    <div id="content"></div>
+    <!-- Give the SVG a size so shapes can be seen -->
+    <svg width="300" height="150"></svg>
+    <!-- Load D3 first, then your D3 code file -->
+    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+    <!-- <script src="energy-d3.js"></script>  -->
+</section>
 
+<!-- NEW: Container for T04-3 chart -->
+<div class="responsive-svg-container">
+<!-- D3 library -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- NEW: JS for T04-3 only -->
+<script src="t04-3-bars.js"></script>
+</div>
+</main>
+</body>
 
 
 <!-- Footer -->

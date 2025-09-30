@@ -1,6 +1,5 @@
 body {
     background-color: #f0dc82;
-    color: #333;
     line-height: 1.6;
     margin : 0 ;
 }
@@ -84,7 +83,6 @@ footer {
 
 .banner {
     background: linear-gradient(135deg, #FEBA4F, #f96815);
-    color: white;
     text-align: center;
     padding: 80px 20px;
     border-radius: 10px;
@@ -95,4 +93,8 @@ footer {
     margin-bottom: 15px;
 }
 
-
+.responsive-svg-container {
+    margin: 0 auto; /* center */
+    width: 100%; /* fill parent width */
+    max-width: 1200px; /* cap max width */
+}
