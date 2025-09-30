@@ -6,8 +6,6 @@
     <title>Appliance Energy Consumption - Home</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="energy-d3.js"></script>
 </head>
 <body>
 <!-- Navigation -->
@@ -24,13 +22,13 @@
 <main>
     <section class="banner">
         <h1>Appliance Energy Consumption Website </h1>
-        <p>Explore energy consumption trends for appliances in the Australian market.</p>
+        <div id="content"></div>
+        <!-- Give the SVG a size so shapes can be seen -->
+        <svg width="300" height="150"></svg>
+        <!-- Load D3 first, then your D3 code file -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="energy-d3.js"></script>
     </section>
-    <div id="content"></div>
-    <!-- Give the SVG a size so shapes can be seen -->
-    <svg width="300" height="150"></svg>
-    <!-- Load D3 first, then your D3 code file -->
-
 </main>
 
 
