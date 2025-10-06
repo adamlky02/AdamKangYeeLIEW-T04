@@ -29,6 +29,3 @@ d3.csv("data/tvBrandCount.csv", d => ({
     console.log("extent:", d3.extent(data, d => d.count)); // [min, max]
 //Optional: sort for easier reading (descending by count)
     data.sort((a, b) => d3.descending(a.count, b.count));
-// Hand off to the chart builder (implemented next exercise)
-    createBarChart(data);
-});
