@@ -1,4 +1,4 @@
-// t04-5-bars.js
+
 const createBarChart = (data) => {
     const viewW = 500, viewH = 1600;
     const displayW = 640, displayH = 420;
