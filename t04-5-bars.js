@@ -11,6 +11,6 @@ const createBarChart = (data) => {
             .attr("class", d => `bar bar-${d.count}`)
             .attr("width", d => d.count)
             .attr("height", 16)
-        .attr("y", (d, i) => i * (barHeight + barSpacing)) // offset each bar
+        .attr("y", (d, i) => i * (barHeight + barSpacing)) // offset each
 };
 
