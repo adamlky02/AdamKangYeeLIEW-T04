@@ -11,6 +11,7 @@ const createBarChart = (data) => {
             .attr("class", d => `bar bar-${d.count}`)
             .attr("width", d => d.count)
             .attr("height", 16)
-            .attr("y", (d, i) => i * 25)
+            .attr("x", 0)
+            .attr("y", (d, i) => i * 20)
 };
 
