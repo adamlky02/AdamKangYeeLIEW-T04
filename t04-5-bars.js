@@ -1,4 +1,4 @@
-// t04-5-bars.js
+
 const createBarChart = (data) => {
     const svg = d3.select(".responsive-svg-container")
         .append("svg")
