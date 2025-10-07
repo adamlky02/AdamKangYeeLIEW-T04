@@ -98,3 +98,29 @@ footer {
     width: 100%; /* fill parent width */
     max-width: 1200px; /* cap max width */
 }
+
+
+
+/* Visualization container */
+.Visualization_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Each question card */
+.Visualization_box > div {
+    flex: 1 1 45%; /* 2 per row on wide screens */
+    min-width: 300px;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}

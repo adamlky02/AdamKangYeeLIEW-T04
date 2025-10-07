@@ -21,6 +21,7 @@ const createBarChart = (data) => {
         .range([0, viewH ])
         .paddingInner(0.2)
         .paddingOuter(0.1);
+
 // OLD rectangle-only drawing block from T04-6 (COMMENTED OUT for T04-7). //
     /* svg.selectAll("rect")
     .data(data)
@@ -31,6 +32,7 @@ const createBarChart = (data) => {
     .attr("height", yScale.bandwidth())
     .attr("fill", "steelblue");
     */
+
 // --- NEW in T04-7: group per row (bar + labels move together) ---
 // Using x = 100 so labels align at 100 and bars start there too.
     const labelX = 100;
