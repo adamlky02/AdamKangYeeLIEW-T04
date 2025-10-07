@@ -94,9 +94,9 @@ footer {
 }
 
 .responsive-svg-container {
-    margin: 0 auto; /* center */
-    width: 100%; /* fill parent width */
-    max-width: 1200px; /* cap max width */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .Charts {
@@ -111,7 +111,7 @@ footer {
     margin: 0 auto 1rem auto;
 }
 
-/* Visualization container */
+
 .Visualization_box {
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +124,7 @@ footer {
     box-sizing: border-box;
 }
 
-/* Each question card */
+
 .Visualization_box > div {
     flex: 1 1 45%;
     min-width: 300px;
