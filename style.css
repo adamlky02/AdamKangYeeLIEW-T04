@@ -103,10 +103,10 @@ footer {
     display: block;
     width: 100%;
     max-width: 400px;
-    max-height: 250px; /* limit height so it doesn't overflow */
+    max-height: 250px;
     height: auto;
     border-radius: 0.5rem;
-    object-fit: contain; /* ensures the entire image is visible */
+    object-fit: contain;
     object-position: center;
     margin: 0 auto 1rem auto;
 }
@@ -126,7 +126,7 @@ footer {
 
 /* Each question card */
 .Visualization_box > div {
-    flex: 1 1 45%; /* 2 per row on wide screens */
+    flex: 1 1 45%;
     min-width: 300px;
     border-radius: 1rem;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
